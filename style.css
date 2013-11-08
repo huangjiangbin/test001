@@ -1,50 +1,66 @@
-html, body, div, h1, h2, h3, h4, h5, h6, img {
+html, body, div, h1, h2, h3, h4, h5, h6, img, * {
     margin: 0;
     border: 0 none;
     padding: 0;
+    font-size: 100%;
     }
 html, body {
     height: 100%;
     min-height: 100%;
 }
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+
 .page {
-    display: none;
     height: 100%;
     min-height: 100%;
-    background-color: #ccc;
+    background-color: #fff;
     overflow: auto;
 }
-.title {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    font-size: 1.3em;
-    line-height: 2em;
-    height: 2em;
-    padding: 0 0.5em 0 0.5em;
-    vertical-align: middle;
+
+.fixed-title{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
-.title h1{
-    font-size: inherit !important;
-    line-height: 2em;
+.title {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #8f0000;
+    color: #fff;
+    font-size: 150%;
+    line-height: 200%;
+}
+.title-inner{
+    padding: 0 0.5em;
 }
 .title .action{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    line-height: 2em;
 }
-.title .left{
-    float: left;
+
+
+.content{
+    font-size: 100%;
+    clear: both;
+    padding: 3.5em 0.5em 1em 0.5em;
 }
-.title .right{
-    float: right;
+.content .content-inner{
 }
 
 
 #page1{
-    background-color: red;
+
 }
 #page2{
-    background-color: blue;
+
 }
