@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        version   = "0.0.1">
+
+    <name>惠◆醉悠悠</name>
+    <description>
+        惠◆醉悠悠
+    </description>
+    <author href="https://www.truease.com" email="info@truease.com">
+        TRUEASE.COM
+    </author>
+
+    <gap:platform name="android" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    
+</widget>
