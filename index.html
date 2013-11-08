@@ -4,82 +4,26 @@
         <meta charset='utf-8'>
         <title>亿买聚优惠</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="./jquery.mobile.custom.theme.min.css" />
-        <link rel="stylesheet" href="./jquery.mobile.custom.structure.min.css" />
+        <link rel="stylesheet" href="./style.css" />
         <script src="./jquery-1.10.2.min.js"></script>
-        <script src="./jquery.mobile.custom.min.js"></script>
     </head>
     <body>
-        <div data-role="page" id="page1">
-            <div data-role="header" data-position="fixed">
-                <h1>亿买聚优惠</h1>
-            </div>
+        <div class="page" id="page1">
             
-            <div data-role="content">
-                <p>TOP</p>
-                <p>PAGE1</p>
-                <a onclick="javascript:$.mobile.changePage( $('#page2') );">GO TO PAGE 2</a>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>BOTTOM</p>
-            </div>
-            
-            <div data-role="footer" data-position="fixed">
-                <h1>版本所有 &copy; emai.com</h1>
-            </div>
         </div>
-
-
-
-        <div data-role="page" id="page2">
-            <div data-role="header" data-position="fixed">
-                <h1>亿买聚优惠</h1>
-            </div>
+        <div class="page" id="page2">
             
-            <div data-role="content">
-                <p>TOP</p>
-                <p>PAGE2</p>
-                <a onclick="javascript:$.mobile.changePage( $('#page1') );">GO TO PAGE 1</a>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>HELLO WORLD</p>
-                <p>BOTTOM</p>
-            </div>
-            
-            <div data-role="footer" data-position="fixed">
-                <h1>版本所有 &copy; emai.com</h1>
-            </div>
-        </div>        
+        </div>
+        <script>
+            $(".page:first").show();
+            $("#page1").click(function(){
+                $("#page1").hide();
+                $("#page2").show();
+            });
+            $("#page2").click(function(){
+                $("#page2").hide();
+                $("#page1").show();
+            });
+        </script>
     </body>
 </html>
