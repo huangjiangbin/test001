@@ -58,6 +58,11 @@ html, body {
 .content .content-inner{
 }
 
+.top-banner{
+    height: 8em;
+    background-color: red;
+}
+
 
 #page1{
 
