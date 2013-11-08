@@ -58,7 +58,9 @@ html, body {
 .content .content-inner{
 }
 
-.top-banner{
+.top-banner img{
+    width: 100%;
+    height: auto !important;
 }
 
 
