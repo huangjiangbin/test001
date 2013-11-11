@@ -1,30 +1,94 @@
-html, body, div, h1, h2, h3, h4, h5, h6, img, * {
-    margin: 0;
-    border: 0 none;
-    padding: 0;
-    font-size: 100%;
-    font-weight: normal;
-    }
-html, body {
-    height: 100%;
-    min-height: 100%;
-}
 
-.left{
-    float: left;
-}
-.right{
-    float: right;
-}
-
-
-
-.page {
+.g-document {
     height: 100%;
     min-height: 100%;
     background-color: #fff;
     overflow: auto;
 }
+.g-head{
+    vertical-align: middle;
+    text-align: center;
+    background-color: #8f0000;
+    color: #fff;
+    font-size: 130%;
+    line-height: 200%;
+    padding: 0 .5em 0 .5em;
+}
+.g-head .action{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+.g-body{
+    padding: 0.5em;
+}
+.w-row-sep{
+    height: 0.5em;
+    line-height: 0.5em;
+    font-size: 0.5em;
+    overflow: hidden;
+    clear: both;
+}
+.w-banner{
+    vertical-align: middle;
+    line-height: 0;
+    overflow: hidden;
+    margin-bottom: 1.2em;
+}
+.w-grid4{
+    width: 100%;
+}
+.w-grid4 .w-grid4-row{
+    clear: both;
+    margin-bottom: 1.2em;
+}
+.w-grid4 .w-grid4-col1,
+.w-grid4 .w-grid4-col2,
+.w-grid4 .w-grid4-col3,
+.w-grid4 .w-grid4-col4{
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+    overflow: hidden;
+    float: left;
+}
+.w-grid4 .cell{
+    background-color: #8f0000;
+    text-align: center;
+    color: #fff;
+    padding-top: 15%;
+}
+.w-grid4 .fa{
+    font-size: 4em;
+}
+.w-grid4 .cell a{
+    color: #fff;
+}
+.w-grid4 .w-grid4-col1 .cell{
+    margin-right: 0.9em;
+}
+.w-grid4 .w-grid4-col2 .cell{
+    margin-left: 0.3em;
+    margin-right: 0.6em;
+}
+.w-grid4 .w-grid4-col3 .cell{
+    margin-left: 0.6em;
+    margin-right: 0.3em;
+}
+.w-grid4 .w-grid4-col4 .cell{
+    margin-left: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .fixed-title{
     position: fixed;
@@ -43,11 +107,7 @@ html, body {
 .title-inner{
     padding: 0 0.5em;
 }
-.title .action{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-}
+
 
 
 .content{
@@ -58,11 +118,30 @@ html, body {
 .content .content-inner{
 }
 
+.top-banner{
+    background-color: green;
+    margin: 0 0 4px 0;
+    padding: 0;
+}
 .top-banner img{
     width: 100%;
     height: auto !important;
 }
 
+.grid{
+    border: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.grid td{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
 
 #page1{
 
@@ -70,3 +149,21 @@ html, body {
 #page2{
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
