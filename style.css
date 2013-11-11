@@ -11,7 +11,7 @@
     color: #fff;
     font-size: 130%;
     line-height: 200%;
-    padding: 0 .5em 0 .5em;
+    padding: 0 .6em 0 .6em;
 }
 .g-head .action{
     display: inline-block;
@@ -19,12 +19,12 @@
     color: #fff;
 }
 .g-body{
-    padding: 0.5em;
+    padding: 0.6em;
 }
 .w-row-sep{
-    height: 0.5em;
-    line-height: 0.5em;
-    font-size: 0.5em;
+    height: 0.6em;
+    line-height: 0.6em;
+    font-size: 0.6em;
     overflow: hidden;
     clear: both;
 }
@@ -89,77 +89,6 @@
     vertical-align: middle;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-.fixed-title{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-.title {
-    vertical-align: middle;
-    text-align: center;
-    background-color: #8f0000;
-    color: #fff;
-    font-size: 130%;
-    line-height: 200%;
-}
-.title-inner{
-    padding: 0 0.5em;
-}
-
-
-
-.content{
-    font-size: 100%;
-    clear: both;
-    padding: 2.8em 0.2em 1em 0.2em;
-}
-.content .content-inner{
-}
-
-.top-banner{
-    background-color: green;
-    margin: 0 0 4px 0;
-    padding: 0;
-}
-.top-banner img{
-    width: 100%;
-    height: auto !important;
-}
-
-.grid{
-    border: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-.grid td{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    background-color: green;
-    margin-right: 4px;
-    margin-bottom: 4px;
-}
-
-#page1{
-
-}
-#page2{
-
-}
-
-
-
 
 
 
