@@ -42,7 +42,7 @@
 }
 .w-grid4 .w-grid4-row{
     clear: both;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.15em;
 }
 .w-grid4 .w-grid4-col1,
 .w-grid4 .w-grid4-col2,
@@ -58,21 +58,21 @@
     background-color: #8f0000;
     text-align: center;
     color: #fff;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.45em;
 }
 .w-grid4 .w-grid4-col1 .cell{
-    margin-right: 0.3em;
+    margin-right: 0.45em;
 }
 .w-grid4 .w-grid4-col2 .cell{
-    margin-left: 0.1em;
-    margin-right: 0.2em;
+    margin-left: 0.15em;
+    margin-right: 0.3em;
 }
 .w-grid4 .w-grid4-col3 .cell{
-    margin-left: 0.2em;
-    margin-right: 0.1em;
+    margin-left: 0.3em;
+    margin-right: 0.15em;
 }
 .w-grid4 .w-grid4-col4 .cell{
-    margin-left: 0.3em;
+    margin-left: 0.45em;
 }
 
 
