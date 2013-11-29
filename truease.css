@@ -1,0 +1,42 @@
+
+.navbar-default .navbar-brand{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tags .btn{
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    padding: 4px 6px;
+}
+.btn-success .badge{
+    background-color: #fff;
+    color: #38B44A;
+}
+.btn-primary .badge{
+    background-color: #fff;
+    color: #DD4814;
+}
+.affix .row{
+    width: 1170px;
+}
+
+.product{
+    background-color: #F5F5F5;
+}
+
+.thumbnail .title{
+    margin: 0.6em 0 0 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #974C19;
+}
+.thumbnail p{
+    margin: 0.4em 0;
+    font-size: 0.9em;
+    color: #974C19;
+}
+.thumbnail .label{
+    font-size: 100%;
+    line-height: 200%;
+}
